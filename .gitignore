@@ -2,7 +2,7 @@
 config/candidate_profile.yaml
 
 # Private databases and raw data
-data/
+/data/
 *.sqlite
 *.sqlite3
 *.db
