@@ -1,0 +1,36 @@
+# Copy to candidate_profile.yaml and edit locally. That file is gitignored.
+current_school: Dallas College
+academic_status: Undergraduate community-college student preparing to transfer
+intended_major: Marketing
+planned_university_transfer_term: Fall 2028
+current_location: Dallas–Fort Worth, Texas
+preferred_locations:
+  - Dallas–Fort Worth
+  - Austin
+remote_within_us: true
+current_college_credits: unknown
+gpa: 4.0
+expected_associate_graduation: Fall 2027
+expected_bachelors_graduation: Spring 2029
+current_class_standing: unknown
+work_authorization: US citizen
+ability_to_relocate: true
+drivers_license: true
+relevant_coursework: []
+certifications:
+  - name: HubSpot Inbound certification
+    status: in progress or completed
+  - name: Google Digital Marketing and E-commerce certificate
+    status: planned
+marketing_skills: []
+technical_skills: []
+languages:
+  - Spanish
+  - English
+  - Portuguese
+work_experience: unknown
+leadership_experience: any
+linkedin_url: null
+portfolio_url: null
+# Never add address, phone, personal email, student ID, secrets, or a full résumé here.
+

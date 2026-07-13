@@ -1,0 +1,43 @@
+# Private candidate information
+config/candidate_profile.yaml
+
+# Private databases and raw data
+data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Credentials and environment variables
+.env
+.env.*
+!.env.example
+
+# Codex and application logs
+logs/
+*.log
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Browser automation
+playwright/.auth/
+browser-profiles/
+raw-pages/
+screenshots/
+
+# Daily-run lock
+.daily-run.lock
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/

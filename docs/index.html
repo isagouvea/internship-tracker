@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Spring and Summer 2027 marketing internship tracker">
+  <title>2027 Marketing Internships</title><link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="hero"><div class="wrap">
+    <p class="eyebrow">DALLAS · AUSTIN · REMOTE</p><h1>2027 Marketing Internships</h1>
+    <p class="lede">Official-source opportunities, tracked over time and evaluated with transparent rules.</p>
+    <p class="updated">Latest successful update: <strong id="updated">2026-07-13T19:18:29.337544</strong></p>
+  </div></header>
+  <main class="wrap">
+    <section aria-labelledby="overview"><h2 id="overview">Overview</h2><div class="stats" id="stats">
+      <article><strong>0</strong><span>New</span></article><article><strong>0</strong><span>Open</span></article>
+      <article><strong>0</strong><span>Changed</span></article><article><strong>0</strong><span>Likely eligible</span></article>
+      <article><strong>0</strong><span>Possibly eligible</span></article><article><strong>0</strong><span>Likely not eligible</span></article>
+      <article><strong>0</strong><span>Unable to determine</span></article><article><strong>0</strong><span>Deadline soon</span></article>
+    </div></section>
+    <section class="toolbar" aria-labelledby="filters"><div class="section-head"><div><h2 id="filters">Explore opportunities</h2><p id="result-count" aria-live="polite">Loading…</p></div>
+      <div class="downloads"><a href="downloads/open-internships.csv">Open CSV</a><a href="downloads/eligible-internships.csv">Eligible CSV</a></div></div>
+      <label class="search">Search <input id="search" type="search" placeholder="Title, company, location…"></label>
+      <div class="filters">
+        <label>Company<select id="company"><option value="">All companies</option></select></label>
+        <label>Category<select id="category"><option value="">All categories</option></select></label>
+        <label>Term<select id="term"><option value="">All 2027 terms</option><option>Spring 2027</option><option>Summer 2027</option><option>Unspecified 2027</option></select></label>
+        <label>Priority area<select id="area"><option value="">All areas</option><option>Dallas–Fort Worth</option><option>Austin</option><option>Remote</option></select></label>
+        <label>Arrangement<select id="arrangement"><option value="">All arrangements</option><option>Onsite</option><option>Hybrid</option><option>Remote</option><option>Unspecified</option></select></label>
+        <label>Eligibility<select id="eligibility"><option value="">All eligibility</option><option>Likely eligible</option><option>Possibly eligible</option><option>Likely not eligible</option><option>Unable to determine</option></select></label>
+        <label>Status<select id="status"><option value="">All statuses</option><option>new</option><option>open</option><option>changed</option><option>may_have_closed</option><option>closed</option></select></label>
+        <label class="check"><input id="new-only" type="checkbox"> New since last search</label><label class="check"><input id="deadline-only" type="checkbox"> Deadline approaching</label>
+      </div>
+    </section>
+    <div id="notice" class="notice" hidden></div><section id="jobs" class="jobs" aria-label="Internships"></section>
+  </main>
+  <dialog id="details"><button class="close" aria-label="Close details">×</button><div id="detail-content"></div></dialog>
+  <footer><div class="wrap">Public data is sanitized. Always confirm details on the employer’s official application page.</div></footer>
+  <script src="assets/app.js" defer></script>
+</body></html>
